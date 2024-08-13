@@ -1,0 +1,22 @@
+This code is based on the huggingface tutorial on how to fine-tune a VIT model with some minor changes
+
+################### INSTALLATION AND EXECUTION COMMANDS ###################
+
+A) How to Run this Code
+
+install libraries (better to use a python virtual environment or an conda environment)
+- pip install datasets transformers accelerate torch scikit-learn matplotlib tensorboard codecarbon TensorFlow pillow==9.5.0 tf-keras
+
+B) how to run this code (we use the accelerate lib to execute it faster)
+accelerate lauch filename.py
+
+c) How to create the charts of the results
+tensorboard --logdir /absolute path here --host 0.0.0.0 --port 6006
+
+(example) tensorboard --logdir/workspace/experiment/learning_rate --host 0.0.0.0 --port 6006
+
+d) how to check NVIDIA resourse
+watch -n 1 nvidia-smi
+
+ 
+
