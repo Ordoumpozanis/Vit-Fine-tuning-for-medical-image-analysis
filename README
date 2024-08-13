@@ -3,6 +3,7 @@ This code is based on the huggingface tutorial on how to fine-tune a VIT model w
 ################### INSTALLATION AND EXECUTION COMMANDS ###################
 
 A) How to Run this Code
+you need python 3.10 and pytorch 2.2
 
 install libraries (better to use a python virtual environment or an conda environment)
 - pip install datasets transformers accelerate torch scikit-learn matplotlib tensorboard codecarbon TensorFlow pillow==9.5.0 tf-keras
